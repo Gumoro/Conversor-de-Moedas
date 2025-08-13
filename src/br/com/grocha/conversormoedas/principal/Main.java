@@ -61,6 +61,7 @@ public class Main {
                 System.out.println("Não foi possível obter a conversão.");
             }
 
+
             System.out.print("\nDeseja fazer outra conversão? (S/N): ");
             String resposta = scanner.next().toUpperCase();
             if (!resposta.equals("S")) {
